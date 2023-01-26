@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<testsuites failures="0" errors="0" tests="4" skipped="0">
+  <testsuite name="Root Suite" timestamp="2023-01-21T19:35:03" tests="0" file="cypress\e2e\features\login\login.feature" time="0.000" failures="0"/>
+  <testsuite name="Login" timestamp="2023-01-21T19:35:03" tests="1" time="15.972" failures="0">
+    <testcase name="Login Login with valid credentials" time="7.689" classname="Login with valid credentials"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2023-01-21T19:35:28" tests="0" file="cypress\e2e\features\loginOutline\loginOutline.feature" time="0.000" failures="0"/>
+  <testsuite name="Login Outline" timestamp="2023-01-21T19:35:28" tests="3" time="16.275" failures="0">
+    <testcase name="Login Outline Login with invalid credentials (example #1)" time="7.025" classname="Login with invalid credentials (example #1)"/>
+    <testcase name="Login Outline Login with invalid credentials (example #2)" time="2.155" classname="Login with invalid credentials (example #2)"/>
+    <testcase name="Login Outline Login with invalid credentials (example #3)" time="4.150" classname="Login with invalid credentials (example #3)"/>
+  </testsuite>
+</testsuites>
